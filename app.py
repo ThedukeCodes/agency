@@ -16,7 +16,7 @@ def create_app(test_config=None):
     # End points
     @app.route('/')
     def welcome():
-        return "welcome to capstone kyuwon"
+        return "welcome to capstone Diego"
 
     @app.route('/movies')
     @requires_auth('get:movies')
