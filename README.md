@@ -102,7 +102,7 @@ python test_api.py
 
 ### Running the server on Heroku
 
-API is hosted live at Heroku on `https://capstone-kyuwon.herokuapp.com`
+API is hosted live at Heroku on `https://capstone-agency1.herokuapp.com/`
 
 You can test endpoints described above with [Postman](https://getpostman.com). 
 - Import the postman collection `capstone.postman_collection.json`
