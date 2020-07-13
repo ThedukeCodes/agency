@@ -219,12 +219,12 @@ def create_app(test_config=None):
                         }), 404
 
     @app.errorhandler(AuthError)
-    def auth_error(error):
+    def auth_error(auth_error):
         return jsonify({
-                        "success": False,
-                        "error": AuthError,
-                        "message": "resource not found"
-                        }), AuthError
+            "success": False, 
+            "error": auth_error.status_code,
+            "message": auth_error.error['description']
+            }), auth_error.status_code
 
     return app
 
