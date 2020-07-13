@@ -1,8 +1,8 @@
 {
 	"info": {
-		"_postman_id": "007773c9-ed10-4d4a-8ad3-7586cc240d84",
+		"_postman_id": "401e419a-faae-4935-a4f7-040dbfa33a7c",
 		"name": "capstone",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
@@ -13,9 +13,13 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA",
+									"type": "string"
+								}
+							]
 						},
 						"method": "POST",
 						"header": [
@@ -62,13 +66,29 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA",
+									"type": "string"
+								}
+							]
 						},
 						"method": "DELETE",
 						"header": [],
-						"url": "https://capstone-agency1.herokuapp.com/movies/2"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/movies/2",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"movies",
+								"2"
+							]
+						}
 					},
 					"response": []
 				},
@@ -77,9 +97,13 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA",
+									"type": "string"
+								}
+							]
 						},
 						"method": "PATCH",
 						"header": [],
@@ -92,7 +116,19 @@
 								}
 							}
 						},
-						"url": "https://capstone-agency1.herokuapp.com/movies/2"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/movies/2",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"movies",
+								"2"
+							]
+						}
 					},
 					"response": []
 				},
@@ -101,13 +137,28 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA",
+									"type": "string"
+								}
+							]
 						},
 						"method": "GET",
 						"header": [],
-						"url": "https://capstone-agency1.herokuapp.com/movies"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/movies",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"movies"
+							]
+						}
 					},
 					"response": []
 				},
@@ -116,13 +167,28 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA",
+									"type": "string"
+								}
+							]
 						},
 						"method": "GET",
 						"header": [],
-						"url": "https://capstone-agency1.herokuapp.com/actors"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/actors",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors"
+							]
+						}
 					},
 					"response": []
 				},
@@ -131,9 +197,13 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA",
+									"type": "string"
+								}
+							]
 						},
 						"method": "POST",
 						"header": [],
@@ -146,7 +216,18 @@
 								}
 							}
 						},
-						"url": "https://capstone-agency1.herokuapp.com/actors"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/actors",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors"
+							]
+						}
 					},
 					"response": []
 				},
@@ -155,9 +236,13 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA",
+									"type": "string"
+								}
+							]
 						},
 						"method": "PATCH",
 						"header": [],
@@ -170,7 +255,19 @@
 								}
 							}
 						},
-						"url": "https://capstone-agency1.herokuapp.com/actors/2"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/actors/2",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors",
+								"2"
+							]
+						}
 					},
 					"response": []
 				},
@@ -179,28 +276,48 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MjBmZjcxMTUwZGY5MWMzMzFkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxOTgsImV4cCI6MTU4ODMzMjU5OCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.LbBl0W1SDKSUq-s8VRzIByjWI227R2Cm7etEuuEWNwRLEaLdGVAa7tuPWpyR0Lz7QoWjvRqFBVGPYHHSrqLriMUAeGwhe-S1ANx3ygn599z2KdeYhuSpLAdcGanAxZC69Uu3fsepoz-HwsTFRC4r8aRgf4x-AVmfAApnRzpm32zeOwf2227U0ZESLp2pzXHq9UK_25x8XLCmdJ1O1ZZYQ4eftu1HSgPvCg3W4Mlr7nlToL8etRiSVyi3WZv2mi1zchQivKwdW847-lQMzr26lUrTI3Wy8vdDpGMxftVljGSK4Ode1RWyj5wbfHxJrhYrUrDKlzrSNXpSGwu81XRVCA",
+									"type": "string"
+								}
+							]
 						},
 						"method": "DELETE",
 						"header": [],
-						"url": "https://capstone-agency1.herokuapp.com/actors/2"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/actors/2",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors",
+								"2"
+							]
+						}
 					},
 					"response": []
 				}
 			],
 			"auth": {
 				"type": "bearer",
-				"bearer": {
-					"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IklJYl9yakw1TWdUT20zS3Z4R2ozNyJ9.eyJpc3MiOiJodHRwczovL2Rldi0yLXMtemIyai5ldS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhZWVmNTdkYzMyMDYwYmU3ZjdmNmNkIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1OTQ0NzA1OTcsImV4cCI6MTU5NDQ3Nzc5NywiYXpwIjoibmNhMzI2YlhVdll4WkhWZURQZ0RFMHdMek51c1pKbzYiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyJdfQ.jwGj8g1Ta0ua9HNLo1Lsp562o_wZKZpcSJ3Cnclyeo6Fhx0Dsxy9QlKs8ne4gl5ZrSYotkFTI8KVnSDRj1EflOZ9Up_iIoWRMsHr5kPZqgaNT4xnLJ-SG1FRzLyDycldQUoMdDxQSTtY7dgjtPsNfyzeEVUqCWM_olwW5wg-ZqwVm5dkYkgaiGFi2dAsUWwq8pRMjm4AIKtVL5lc6PB60qa-Vuo4Y1A6q8ZqD5CKt7NgG0key3yCDAbFFDcrfNH7yKRsPdxiC7yqv-EJ2-eUZ9JXEJIJaRFVNu-YkGjFmUeDsF-KiZoLx_XgqlyxbRvJXqrHw3J9myOAFN1kCQYvfg"
-				}
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IklJYl9yakw1TWdUT20zS3Z4R2ozNyJ9.eyJpc3MiOiJodHRwczovL2Rldi0yLXMtemIyai5ldS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWYwY2JlZjM3NjAwNDQwMDEzYTAzNzM1IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1OTQ2NzI1NjksImV4cCI6MTU5NDc1ODk2OSwiYXpwIjoibmNhMzI2YlhVdll4WkhWZURQZ0RFMHdMek51c1pKbzYiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyJdfQ.JAnUzGjM7OlLtgmkncDRa2TllINeEWZGMST1i7b7wf5M_q7C2KNvVjZ-0bFBehmcFUKsv30IKxupxKG6uaTFI-d-WsufaMxWioYpIW3rSbwQsXcKkRK0AWXALdxxxRXK6IRaao7iAK_JtC7QyypgEuuuuIdVHakenLFhcWUSX3jlpiaagDsUbcEipMKBmkt6tBm5OtnfYe1K7oAp9ViED1Kg7Rx0i1CXP-cRKuoDh74ABD-xLbpfbZ28wTaCCheJrAB-qPLtjWJU2mLjVloFkTUYGUL9uEJed2W5mjCZxpbAwSgxZFk32qIr-Otp3Ap8tNtDVwxorXsmWTB228teEA\n",
+						"type": "string"
+					}
+				]
 			},
 			"event": [
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "4f3ffd54-b5a6-414e-8725-0c19b1e3b71d",
+						"id": "c16097fc-8b7b-49ca-bf26-230ee055455d",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -210,7 +327,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "2332d3fc-8eb1-4d9f-8750-f5c1def0a83c",
+						"id": "7a4ff28a-85ea-4d32-b5ae-56d92dd0c044",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -228,9 +345,13 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MDFmZjcxMTUwZGY5MWMzMmI0IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxMzgsImV4cCI6MTU4ODMzMjUzOCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.phRlQlrzeQIpxVDzYCcLugZhYjvdi92Wzs_TX1hRfIZ6siXZq9F44o90MCdiucoaI0gLkd7wH48nKGlnEMH-4OJoPEHbxE_yti-5eEUU1g-dPT0mNJmcp3UacsxjtCNK6etKLpN_3Fo6yntr0C-JFjk6cZ6g0ISpm7GhOx3X_BL2311AkqvJgX5VNKzf8sDVifZwG_GPok6jycQgaPvjnIvPHyVr6WOzPIraMO9SYkAioy4dcBWcM2KUZYBqyjG66OoZ8Tu2G4yB7dh9OIeHNlEY-dv4SpNCpzpkuhXY8ehVQeEW8EeoqcKZLTVptirgaBHXdBFUIOq4NPILLTQYJw"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MDFmZjcxMTUwZGY5MWMzMmI0IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxMzgsImV4cCI6MTU4ODMzMjUzOCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.phRlQlrzeQIpxVDzYCcLugZhYjvdi92Wzs_TX1hRfIZ6siXZq9F44o90MCdiucoaI0gLkd7wH48nKGlnEMH-4OJoPEHbxE_yti-5eEUU1g-dPT0mNJmcp3UacsxjtCNK6etKLpN_3Fo6yntr0C-JFjk6cZ6g0ISpm7GhOx3X_BL2311AkqvJgX5VNKzf8sDVifZwG_GPok6jycQgaPvjnIvPHyVr6WOzPIraMO9SYkAioy4dcBWcM2KUZYBqyjG66OoZ8Tu2G4yB7dh9OIeHNlEY-dv4SpNCpzpkuhXY8ehVQeEW8EeoqcKZLTVptirgaBHXdBFUIOq4NPILLTQYJw",
+									"type": "string"
+								}
+							]
 						},
 						"method": "PATCH",
 						"header": [],
@@ -243,7 +364,19 @@
 								}
 							}
 						},
-						"url": "https://capstone-agency1.herokuapp.com/movies/3"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/movies/3",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"movies",
+								"3"
+							]
+						}
 					},
 					"response": []
 				},
@@ -252,13 +385,28 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MDFmZjcxMTUwZGY5MWMzMmI0IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxMzgsImV4cCI6MTU4ODMzMjUzOCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.phRlQlrzeQIpxVDzYCcLugZhYjvdi92Wzs_TX1hRfIZ6siXZq9F44o90MCdiucoaI0gLkd7wH48nKGlnEMH-4OJoPEHbxE_yti-5eEUU1g-dPT0mNJmcp3UacsxjtCNK6etKLpN_3Fo6yntr0C-JFjk6cZ6g0ISpm7GhOx3X_BL2311AkqvJgX5VNKzf8sDVifZwG_GPok6jycQgaPvjnIvPHyVr6WOzPIraMO9SYkAioy4dcBWcM2KUZYBqyjG66OoZ8Tu2G4yB7dh9OIeHNlEY-dv4SpNCpzpkuhXY8ehVQeEW8EeoqcKZLTVptirgaBHXdBFUIOq4NPILLTQYJw"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MDFmZjcxMTUwZGY5MWMzMmI0IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxMzgsImV4cCI6MTU4ODMzMjUzOCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.phRlQlrzeQIpxVDzYCcLugZhYjvdi92Wzs_TX1hRfIZ6siXZq9F44o90MCdiucoaI0gLkd7wH48nKGlnEMH-4OJoPEHbxE_yti-5eEUU1g-dPT0mNJmcp3UacsxjtCNK6etKLpN_3Fo6yntr0C-JFjk6cZ6g0ISpm7GhOx3X_BL2311AkqvJgX5VNKzf8sDVifZwG_GPok6jycQgaPvjnIvPHyVr6WOzPIraMO9SYkAioy4dcBWcM2KUZYBqyjG66OoZ8Tu2G4yB7dh9OIeHNlEY-dv4SpNCpzpkuhXY8ehVQeEW8EeoqcKZLTVptirgaBHXdBFUIOq4NPILLTQYJw",
+									"type": "string"
+								}
+							]
 						},
 						"method": "GET",
 						"header": [],
-						"url": "https://capstone-agency1.herokuapp.com/movies"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/movies",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"movies"
+							]
+						}
 					},
 					"response": []
 				},
@@ -267,13 +415,28 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MDFmZjcxMTUwZGY5MWMzMmI0IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxMzgsImV4cCI6MTU4ODMzMjUzOCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.phRlQlrzeQIpxVDzYCcLugZhYjvdi92Wzs_TX1hRfIZ6siXZq9F44o90MCdiucoaI0gLkd7wH48nKGlnEMH-4OJoPEHbxE_yti-5eEUU1g-dPT0mNJmcp3UacsxjtCNK6etKLpN_3Fo6yntr0C-JFjk6cZ6g0ISpm7GhOx3X_BL2311AkqvJgX5VNKzf8sDVifZwG_GPok6jycQgaPvjnIvPHyVr6WOzPIraMO9SYkAioy4dcBWcM2KUZYBqyjG66OoZ8Tu2G4yB7dh9OIeHNlEY-dv4SpNCpzpkuhXY8ehVQeEW8EeoqcKZLTVptirgaBHXdBFUIOq4NPILLTQYJw"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MDFmZjcxMTUwZGY5MWMzMmI0IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxMzgsImV4cCI6MTU4ODMzMjUzOCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.phRlQlrzeQIpxVDzYCcLugZhYjvdi92Wzs_TX1hRfIZ6siXZq9F44o90MCdiucoaI0gLkd7wH48nKGlnEMH-4OJoPEHbxE_yti-5eEUU1g-dPT0mNJmcp3UacsxjtCNK6etKLpN_3Fo6yntr0C-JFjk6cZ6g0ISpm7GhOx3X_BL2311AkqvJgX5VNKzf8sDVifZwG_GPok6jycQgaPvjnIvPHyVr6WOzPIraMO9SYkAioy4dcBWcM2KUZYBqyjG66OoZ8Tu2G4yB7dh9OIeHNlEY-dv4SpNCpzpkuhXY8ehVQeEW8EeoqcKZLTVptirgaBHXdBFUIOq4NPILLTQYJw",
+									"type": "string"
+								}
+							]
 						},
 						"method": "GET",
 						"header": [],
-						"url": "https://capstone-agency1.herokuapp.com/actors"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/actors",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors"
+							]
+						}
 					},
 					"response": []
 				},
@@ -282,9 +445,13 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MDFmZjcxMTUwZGY5MWMzMmI0IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxMzgsImV4cCI6MTU4ODMzMjUzOCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.phRlQlrzeQIpxVDzYCcLugZhYjvdi92Wzs_TX1hRfIZ6siXZq9F44o90MCdiucoaI0gLkd7wH48nKGlnEMH-4OJoPEHbxE_yti-5eEUU1g-dPT0mNJmcp3UacsxjtCNK6etKLpN_3Fo6yntr0C-JFjk6cZ6g0ISpm7GhOx3X_BL2311AkqvJgX5VNKzf8sDVifZwG_GPok6jycQgaPvjnIvPHyVr6WOzPIraMO9SYkAioy4dcBWcM2KUZYBqyjG66OoZ8Tu2G4yB7dh9OIeHNlEY-dv4SpNCpzpkuhXY8ehVQeEW8EeoqcKZLTVptirgaBHXdBFUIOq4NPILLTQYJw"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MDFmZjcxMTUwZGY5MWMzMmI0IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxMzgsImV4cCI6MTU4ODMzMjUzOCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.phRlQlrzeQIpxVDzYCcLugZhYjvdi92Wzs_TX1hRfIZ6siXZq9F44o90MCdiucoaI0gLkd7wH48nKGlnEMH-4OJoPEHbxE_yti-5eEUU1g-dPT0mNJmcp3UacsxjtCNK6etKLpN_3Fo6yntr0C-JFjk6cZ6g0ISpm7GhOx3X_BL2311AkqvJgX5VNKzf8sDVifZwG_GPok6jycQgaPvjnIvPHyVr6WOzPIraMO9SYkAioy4dcBWcM2KUZYBqyjG66OoZ8Tu2G4yB7dh9OIeHNlEY-dv4SpNCpzpkuhXY8ehVQeEW8EeoqcKZLTVptirgaBHXdBFUIOq4NPILLTQYJw",
+									"type": "string"
+								}
+							]
 						},
 						"method": "POST",
 						"header": [],
@@ -297,7 +464,18 @@
 								}
 							}
 						},
-						"url": "https://capstone-agency1.herokuapp.com/actors"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/actors",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors"
+							]
+						}
 					},
 					"response": []
 				},
@@ -306,9 +484,13 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MDFmZjcxMTUwZGY5MWMzMmI0IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxMzgsImV4cCI6MTU4ODMzMjUzOCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.phRlQlrzeQIpxVDzYCcLugZhYjvdi92Wzs_TX1hRfIZ6siXZq9F44o90MCdiucoaI0gLkd7wH48nKGlnEMH-4OJoPEHbxE_yti-5eEUU1g-dPT0mNJmcp3UacsxjtCNK6etKLpN_3Fo6yntr0C-JFjk6cZ6g0ISpm7GhOx3X_BL2311AkqvJgX5VNKzf8sDVifZwG_GPok6jycQgaPvjnIvPHyVr6WOzPIraMO9SYkAioy4dcBWcM2KUZYBqyjG66OoZ8Tu2G4yB7dh9OIeHNlEY-dv4SpNCpzpkuhXY8ehVQeEW8EeoqcKZLTVptirgaBHXdBFUIOq4NPILLTQYJw"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MDFmZjcxMTUwZGY5MWMzMmI0IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxMzgsImV4cCI6MTU4ODMzMjUzOCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.phRlQlrzeQIpxVDzYCcLugZhYjvdi92Wzs_TX1hRfIZ6siXZq9F44o90MCdiucoaI0gLkd7wH48nKGlnEMH-4OJoPEHbxE_yti-5eEUU1g-dPT0mNJmcp3UacsxjtCNK6etKLpN_3Fo6yntr0C-JFjk6cZ6g0ISpm7GhOx3X_BL2311AkqvJgX5VNKzf8sDVifZwG_GPok6jycQgaPvjnIvPHyVr6WOzPIraMO9SYkAioy4dcBWcM2KUZYBqyjG66OoZ8Tu2G4yB7dh9OIeHNlEY-dv4SpNCpzpkuhXY8ehVQeEW8EeoqcKZLTVptirgaBHXdBFUIOq4NPILLTQYJw",
+									"type": "string"
+								}
+							]
 						},
 						"method": "PATCH",
 						"header": [],
@@ -321,7 +503,19 @@
 								}
 							}
 						},
-						"url": "https://capstone-agency1.herokuapp.com/actors/3"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/actors/3",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors",
+								"3"
+							]
+						}
 					},
 					"response": []
 				},
@@ -330,28 +524,48 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MDFmZjcxMTUwZGY5MWMzMmI0IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxMzgsImV4cCI6MTU4ODMzMjUzOCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.phRlQlrzeQIpxVDzYCcLugZhYjvdi92Wzs_TX1hRfIZ6siXZq9F44o90MCdiucoaI0gLkd7wH48nKGlnEMH-4OJoPEHbxE_yti-5eEUU1g-dPT0mNJmcp3UacsxjtCNK6etKLpN_3Fo6yntr0C-JFjk6cZ6g0ISpm7GhOx3X_BL2311AkqvJgX5VNKzf8sDVifZwG_GPok6jycQgaPvjnIvPHyVr6WOzPIraMO9SYkAioy4dcBWcM2KUZYBqyjG66OoZ8Tu2G4yB7dh9OIeHNlEY-dv4SpNCpzpkuhXY8ehVQeEW8EeoqcKZLTVptirgaBHXdBFUIOq4NPILLTQYJw"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM1MDFmZjcxMTUwZGY5MWMzMmI0IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYxMzgsImV4cCI6MTU4ODMzMjUzOCwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.phRlQlrzeQIpxVDzYCcLugZhYjvdi92Wzs_TX1hRfIZ6siXZq9F44o90MCdiucoaI0gLkd7wH48nKGlnEMH-4OJoPEHbxE_yti-5eEUU1g-dPT0mNJmcp3UacsxjtCNK6etKLpN_3Fo6yntr0C-JFjk6cZ6g0ISpm7GhOx3X_BL2311AkqvJgX5VNKzf8sDVifZwG_GPok6jycQgaPvjnIvPHyVr6WOzPIraMO9SYkAioy4dcBWcM2KUZYBqyjG66OoZ8Tu2G4yB7dh9OIeHNlEY-dv4SpNCpzpkuhXY8ehVQeEW8EeoqcKZLTVptirgaBHXdBFUIOq4NPILLTQYJw",
+									"type": "string"
+								}
+							]
 						},
 						"method": "DELETE",
 						"header": [],
-						"url": "https://capstone-agency1.herokuapp.com/actors/3"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/actors/3",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors",
+								"3"
+							]
+						}
 					},
 					"response": []
 				}
 			],
 			"auth": {
 				"type": "bearer",
-				"bearer": {
-					"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IklJYl9yakw1TWdUT20zS3Z4R2ozNyJ9.eyJpc3MiOiJodHRwczovL2Rldi0yLXMtemIyai5ldS5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMTgxMjA2MTgzNzE5OTgxNzg5MjciLCJhdWQiOlsiY2Fwc3RvbmUiLCJodHRwczovL2Rldi0yLXMtemIyai5ldS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNTk0NDcwMzkyLCJleHAiOjE1OTQ0Nzc1OTIsImF6cCI6Im5jYTMyNmJYVXZZeFpIVmVEUGdERTB3THpOdXNaSm82Iiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.FOganV3Hq94xCGtZibqjiJBHSOk_gMBVEbNptNxIGU4FrJmaaQEC2Z3_kc8Z8R_-0HAFw2drhKXm8CWjpf-3jMCZdOpoMcXGzPC3isg694g4BQpY7i_vl58mNMDKLQReVo9y8qWd1qpF7uSyzeZFSnR1XuCIb-A0Yrc0VNReB4VBA2LMiV_lTONBdxJIFfwbUDeD7DSLzL9EAq_4Z9sdpEfiEufTd4nc1NpWN3cmbB3oUM4Ak14pMzS-PaIhS3o5XhybMKYSeexBASrW88Hau7ODyJPQeT-_7_LOAUL2HRRxNHcAtMSCIdvrUJ1SJ3GmdRL3r8AlqaN8IumaynOzQw"
-				}
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IklJYl9yakw1TWdUT20zS3Z4R2ozNyJ9.eyJpc3MiOiJodHRwczovL2Rldi0yLXMtemIyai5ldS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWYwY2JlYWY2YjI1NjEwMDE5MTZkNGJhIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1OTQ2NzIyODcsImV4cCI6MTU5NDc1ODY4NywiYXpwIjoibmNhMzI2YlhVdll4WkhWZURQZ0RFMHdMek51c1pKbzYiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIl19.bYV0aIwPdi5So7R1e85hz-pN9Cqk-UgNyEmtZjlknxvRHBC8ISOtfEZcInq-34279GPNXlxzKnIgWLsO5e9rlnVReg0gEpNFBcrmHAVlL6SjdkRsHkTtfqMJDKm94OaDOTQSf-Sv4iv6DbpVmkdG3D0X0nTpbGKwQkmLvZBShYzR3gMo7biQ79Y1JCHQ4yEDKMH2MiVBCVNDEUMabTk7HC4a8v0m34lg88sG8WGXaBbxoQ7YIMBb4b1_azmbDiKKtP1Wz4SeltlQkejDfSrvFu7keS9Lf2IqJBBvD49aituDMTg3KROVFupHZLB_5T76KHzNI_kMv4K1RYtq8Ix9Rg\n",
+						"type": "string"
+					}
+				]
 			},
 			"event": [
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "fb05ce88-3cdf-47ec-bc70-8d9cb276fa35",
+						"id": "8dbc256d-7d2b-4f53-9da0-4c9fdbe8545f",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -361,7 +575,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "38f03074-1da6-4c70-b243-766f8b627888",
+						"id": "08231613-a7a6-4399-a4cd-19b7530883fb",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -379,13 +593,28 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM0Y2Q3NDFhMDcwZTBiMmMxMjcwIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYwODUsImV4cCI6MTU4ODMzMjQ4NSwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIl19.AqBVs6KMxBbQagOlAYRPTqd3mCSK6VoS7IQVGfvCx5HqFxiKjCQ_Awrss8oWFQh2Bxzt-Y765kiltPW4OTsi8thSFi1ve9Ue5yd3bPttKJqyF5S6JLH6SFqJqr1_tyEfnBqTxUZi9EPu2-xLaOCB6uy3uDa1qiTDS9TkSqTFGT-_xkkKqUuFFtG35qGm8H_qT4khpYuk0KULQ_MCK5V51r6d2x59InHpYjHV0FgS3oOU8XWiC_i2Tz295kfo5rZ5cccOhujtaUQq1Ndiql_SRMN5INehPyk7QgfHIlE9J3859g07PBRZRV82_qVVTKiZQ5y1GVvKFUJmseb8HV-6Tg"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM0Y2Q3NDFhMDcwZTBiMmMxMjcwIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYwODUsImV4cCI6MTU4ODMzMjQ4NSwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIl19.AqBVs6KMxBbQagOlAYRPTqd3mCSK6VoS7IQVGfvCx5HqFxiKjCQ_Awrss8oWFQh2Bxzt-Y765kiltPW4OTsi8thSFi1ve9Ue5yd3bPttKJqyF5S6JLH6SFqJqr1_tyEfnBqTxUZi9EPu2-xLaOCB6uy3uDa1qiTDS9TkSqTFGT-_xkkKqUuFFtG35qGm8H_qT4khpYuk0KULQ_MCK5V51r6d2x59InHpYjHV0FgS3oOU8XWiC_i2Tz295kfo5rZ5cccOhujtaUQq1Ndiql_SRMN5INehPyk7QgfHIlE9J3859g07PBRZRV82_qVVTKiZQ5y1GVvKFUJmseb8HV-6Tg",
+									"type": "string"
+								}
+							]
 						},
 						"method": "GET",
 						"header": [],
-						"url": "https://capstone-agency1.herokuapp.com/movies"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/movies",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"movies"
+							]
+						}
 					},
 					"response": []
 				},
@@ -394,28 +623,47 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": {
-								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM0Y2Q3NDFhMDcwZTBiMmMxMjcwIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYwODUsImV4cCI6MTU4ODMzMjQ4NSwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIl19.AqBVs6KMxBbQagOlAYRPTqd3mCSK6VoS7IQVGfvCx5HqFxiKjCQ_Awrss8oWFQh2Bxzt-Y765kiltPW4OTsi8thSFi1ve9Ue5yd3bPttKJqyF5S6JLH6SFqJqr1_tyEfnBqTxUZi9EPu2-xLaOCB6uy3uDa1qiTDS9TkSqTFGT-_xkkKqUuFFtG35qGm8H_qT4khpYuk0KULQ_MCK5V51r6d2x59InHpYjHV0FgS3oOU8XWiC_i2Tz295kfo5rZ5cccOhujtaUQq1Ndiql_SRMN5INehPyk7QgfHIlE9J3859g07PBRZRV82_qVVTKiZQ5y1GVvKFUJmseb8HV-6Tg"
-							}
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJUQkRNamN3TkRZNFFVTTVNemM1TkRBNE9URTBOekJDTnpORVFqbEZPRVExT0RFMk9VVXlNZyJ9.eyJpc3MiOiJodHRwczovL2ZzbmRxMS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVhMWM0Y2Q3NDFhMDcwZTBiMmMxMjcwIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1ODgyNDYwODUsImV4cCI6MTU4ODMzMjQ4NSwiYXpwIjoiclhHeFU0dWRneFl3Z2ZnajlSMEZpeUtUcEVYamdDQ3EiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIl19.AqBVs6KMxBbQagOlAYRPTqd3mCSK6VoS7IQVGfvCx5HqFxiKjCQ_Awrss8oWFQh2Bxzt-Y765kiltPW4OTsi8thSFi1ve9Ue5yd3bPttKJqyF5S6JLH6SFqJqr1_tyEfnBqTxUZi9EPu2-xLaOCB6uy3uDa1qiTDS9TkSqTFGT-_xkkKqUuFFtG35qGm8H_qT4khpYuk0KULQ_MCK5V51r6d2x59InHpYjHV0FgS3oOU8XWiC_i2Tz295kfo5rZ5cccOhujtaUQq1Ndiql_SRMN5INehPyk7QgfHIlE9J3859g07PBRZRV82_qVVTKiZQ5y1GVvKFUJmseb8HV-6Tg",
+									"type": "string"
+								}
+							]
 						},
 						"method": "GET",
 						"header": [],
-						"url": "https://capstone-agency1.herokuapp.com/actors"
+						"url": {
+							"raw": "https://capstone-agency1.herokuapp.com/actors",
+							"protocol": "https",
+							"host": [
+								"capstone-agency1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors"
+							]
+						}
 					},
 					"response": []
 				}
 			],
 			"auth": {
 				"type": "bearer",
-				"bearer": {
-					"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IklJYl9yakw1TWdUT20zS3Z4R2ozNyJ9.eyJpc3MiOiJodHRwczovL2Rldi0yLXMtemIyai5ldS5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMTMyNjYyNTY5MDM1MzM3Mjc4MjkiLCJhdWQiOlsiY2Fwc3RvbmUiLCJodHRwczovL2Rldi0yLXMtemIyai5ldS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNTk0NDcwMDk0LCJleHAiOjE1OTQ0NzcyOTQsImF6cCI6Im5jYTMyNmJYVXZZeFpIVmVEUGdERTB3THpOdXNaSm82Iiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInBlcm1pc3Npb25zIjpbImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIl19.qoHZXvxet0hgQEq5UUSi5ai6U-cVSo4H5bjRhL8sFRKi7eBGww08aUZj6DCyOL-nxuycmCj1ppou36boLfGeiBe4h8EW2oghp0DqUvbXlkhC8vPbo28hhw07aJ4X9xXc58y9z4M392ZLJIwNCJxvC1lD7M2aGNuw0C767lO6Ne4GVGyy0iTs0mzUN8K8RfM8dpVBrynohSZb9uZg613vUN6NLszXBRV4hz2P-BzC9CldoMwjkcvBhFiFXyV3it6Ov0w7-KVx_GAPlkV4mS7jLOBn-sdanmoBZuASRvHXk0jSrD6A8AJfhzMuKLbGI9tCBIpH_W4aD1lI08_HNJLcaw"
-				}
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IklJYl9yakw1TWdUT20zS3Z4R2ozNyJ9.eyJpc3MiOiJodHRwczovL2Rldi0yLXMtemIyai5ldS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWYwY2JlMWJiYjMzMTMwMDEzYTRjZmNhIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE1OTQ2NzI0MzYsImV4cCI6MTU5NDc1ODgzNiwiYXpwIjoibmNhMzI2YlhVdll4WkhWZURQZ0RFMHdMek51c1pKbzYiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIl19.fEgllcgJl0GAsWXw1e4b94epbJCINMlM3tiuU3JTX-F5Ca1bU_BAzCGVX7QGEwA909grQegIRgXrbCD62nUHvKQ0MOI_r1q-e2_M_geUBBHByc24uhWit0tKgnsiF4HFUzmASnIz07Gyw0DucOtXCmZMYSat9-IJOVEsucrDKZwqMm5rOUHcbOi0oaP6rDjyVYvLI1AW2wj1wbKP_BEJywNw6VR1Rh7-XjsuchwdoIRtGWu0YhZD9M4BqU3QoCIBszJR3uEo7lop1jSgJXTvOxuqlbBuv_EkneXOVdvRRqkeJSz8QxG-UuovqAXFLcI6l0Z4Ny63jEOXNtJtIy6AQg\n",
+						"type": "string"
+					}
+				]
 			},
 			"event": [
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "d90349a3-1a7c-4b8b-a2df-c415f79eda8f",
+						"id": "58e3a73c-f556-4698-852b-758008e3cb39",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -425,7 +673,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "e9e622f3-f330-4046-8acc-bc7b7dbfd7e5",
+						"id": "96dbb56f-8420-4cba-b20f-eeaeab8e5836",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -440,7 +688,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "e4554b8e-69d6-4ce2-8ece-4039d79f5834",
+				"id": "d46270b0-6a1f-4576-9353-6095fb1eb724",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -450,7 +698,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f40ce035-fddd-4dee-a54d-916fcc286f4e",
+				"id": "efa0c445-44ac-4d8a-8e47-8529709f5214",
 				"type": "text/javascript",
 				"exec": [
 					""
