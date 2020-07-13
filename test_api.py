@@ -29,7 +29,7 @@ class CastingTestCase(unittest.TestCase):
         self.app = create_app()
         self.client = self.app.test_client
         self.database_path = (
-            'postgresql://postgres:1111@localhost:5432/casting'
+            'postgresql://postgres:Ioneryle1@localhost:5432/agency'
         )
         self.header_assistant = {
             'Content-Type': 'application/json',
